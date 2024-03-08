@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">LearningJetpack</string>
     <string name="title_activity_happy_birthday">HappyBirthday</string>
+    <string name="title_activity_birthday_image">BirthdayImage</string>
 </resources>
