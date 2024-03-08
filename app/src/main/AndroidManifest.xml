@@ -13,13 +13,16 @@
         android:theme="@style/Theme.LearningJetpack"
         tools:targetApi="31">
         <activity
-            android:name=".HappyBirthday"
-            android:exported="false"
+            android:name=".simpletext.HappyBirthday"
+            android:exported="true"
             android:label="@string/title_activity_happy_birthday"
-            android:theme="@style/Theme.LearningJetpack" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
+            android:theme="@style/Theme.LearningJetpack">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>
