@@ -13,7 +13,7 @@
         android:theme="@style/Theme.LearningJetpack"
         tools:targetApi="31">
         <activity
-            android:name=".BirthdayImageActivity"
+            android:name=".imageWithText.BirthdayImageActivity"
             android:exported="true"
             android:label="@string/title_activity_birthday_image"
             android:theme="@style/Theme.LearningJetpack">
