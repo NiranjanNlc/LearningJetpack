@@ -23,6 +23,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+ <activity
+            android:name=".simpletext.HappyBirthday"
+            android:exported="true"
+            android:label="@string/title_activity_happy_birthday"
+            android:theme="@style/Theme.LearningJetpack">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>
