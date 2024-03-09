@@ -13,26 +13,39 @@
         android:theme="@style/Theme.LearningJetpack"
         tools:targetApi="31">
         <activity
+            android:name=".businesscard.BusinessCardActivity"
+            android:exported="true"
+            android:label="@string/title_activity_business_card"
+            android:theme="@style/Theme.LearningJetpack">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".composeQuadarnt.ComposeQuadarntActivity"
             android:exported="true"
             android:label="@string/title_activity_compose_quadarnt"
             android:theme="@style/Theme.LearningJetpack">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".taskDone.TaskDoneActivity"
             android:exported="true"
             android:label="@string/title_activity_task_done"
             android:theme="@style/Theme.LearningJetpack">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name=".composeArticle.ComposeArticleActivity"
